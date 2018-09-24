@@ -1,9 +1,9 @@
 class WpeCli < Formula
   desc ""
   homepage ""
-  url "https://github.com/wpengine/wpe-cli/releases/download/v0.5.2/wpe-cli_0.5.2_darwin_amd64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  version "0.5.2"
-  sha256 "0d097a9e63f9540867630e0031bfbbfef953c627208f528b68815b7c4bf2b70a"
+  url "https://github.com/wpengine/wpe-cli/releases/download/v0.6.0/wpe-cli_0.6.0_darwin_amd64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  version "0.6.0"
+  sha256 "29a5f14bbd2583a78f8580266699386e34516de56a6bc67798cb2d86875d5690"
 
   def install
     bin.install "wpe"
