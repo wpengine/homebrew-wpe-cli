@@ -1,0 +1,12 @@
+{
+    "version": "0.9.6",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/wpengine/wpe-cli/releases/download/v0.9.6/wpe-cli_0.9.6_windows_amd64.tar.gz",
+            "bin": "wpe.exe",
+            "hash": "8ce252015645e4dc33a96a7fbfc0d8b20a4fd7188d3d77a0ed06e92e4bb1642f"
+        }
+    },
+    "homepage": "https://wpengine.com",
+    "description": "WP Engine Command Line Interface"
+}
