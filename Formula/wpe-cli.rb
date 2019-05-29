@@ -2,9 +2,9 @@
 class WpeCli < Formula
   desc "WP Engine DevKit Command Line Interface"
   homepage "https://wpengine.com"
-  url "https://s3-us-east-2.amazonaws.com/wpeclibinaries/wpe-cli/v0.12.4/wpe-cli_0.12.4_darwin_amd64.tar.gz"
-  version "0.12.4"
-  sha256 "c923278f3435124141513411a2c322761638db455fd2cc5a25d68270f4d2d3b9"
+  url "https://s3-us-east-2.amazonaws.com/wpeclibinaries/wpe-cli/v0.12.5/wpe-cli_0.12.5_darwin_amd64.tar.gz"
+  version "0.12.5"
+  sha256 "34f61f230a8f8cdb5ff13fbf294f13efdfb97faf9d6f784f62f46951d5451ae7"
 
   def install
     bin.install "wpe"
