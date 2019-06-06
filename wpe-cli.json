@@ -1,12 +1,12 @@
 {
-    "version": "0.12.6",
+    "version": "0.12.7",
     "architecture": {
         "64bit": {
-            "url": "https://s3-us-east-2.amazonaws.com/wpeclibinaries/wpe-cli/v0.12.6/wpe-cli_0.12.6_windows_amd64.tar.gz",
+            "url": "https://s3-us-east-2.amazonaws.com/wpeclibinaries/wpe-cli/v0.12.7/wpe-cli_0.12.7_windows_amd64.tar.gz",
             "bin": [
                 "wpe.exe"
             ],
-            "hash": "77b2eb638e3d39d57b5fd206e27ba2710691f44ff25a279d984d67ec96f8feb9"
+            "hash": "9e2e538f4f41c93fba842e07e769ab270305d176d25b35d57c58145fbc639822"
         }
     },
     "homepage": "https://wpengine.com",
