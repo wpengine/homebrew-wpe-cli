@@ -2,15 +2,19 @@
 class WpeCli < Formula
   desc "WP Engine DevKit Command Line Interface"
   homepage "https://wpengine.com"
-  version "0.13.8"
+  version "0.13.9"
   bottle :unneeded
 
   if OS.mac?
-    url "https://s3-us-east-2.amazonaws.com/wpeclibinaries/wpe-cli/v0.13.8/wpe-cli_0.13.8_darwin_amd64.tar.gz"
-    sha256 "80480d7cde4d2032277b1554b8227a23ff4462ca6c6b7a78318071f93d6012c3"
+    url "https://s3-us-east-2.amazonaws.com/wpeclibinaries/wpe-cli/v0.13.9/wpe-cli_0.13.9_darwin_amd64.tar.gz"
+    sha256 "477dc22b5ffa84ce7cdca90812bb3b85d1563a6d0e15d6cacb117e317e9f0055"
   elsif OS.linux?
-    url "https://s3-us-east-2.amazonaws.com/wpeclibinaries/wpe-cli/v0.13.8/wpe-cli_0.13.8_linux_amd64.tar.gz"
-    sha256 "47340b42135504210e48d65c64f47d68e08a07938389e802855f2dfbeaa0e437"
+    url "https://s3-us-east-2.amazonaws.com/wpeclibinaries/wpe-cli/v0.13.9/wpe-cli_0.13.9_linux_amd64.tar.gz"
+    sha256 "52a89251ff19a808661a363fbff8bb6f3a41acf60d09d26eaa65438d838c1d54"
+  end
+  
+  devel do
+    url "https://s3-us-east-2.amazonaws.com/wpeclinightly/wpe-cli/0.13.9/wpe-cli_0.13.9_darwin_amd64.tar.gz"
   end
 
   def install
