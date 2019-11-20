@@ -7,11 +7,11 @@ class WpeCli < Formula
 
   if OS.mac?
     url "https://s3-us-east-2.amazonaws.com/wpeclibinaries/wpe-cli/v0.15.12/wpe-cli_0.15.12_darwin_amd64.tar.gz"
-    sha256 "cd514c7851278d78fec3ca073194c3614915754743cb2e5096b6b8588dedac41"
+    sha256 "3da269e57faa62ae2e1d026d933f5996f6dc69071b88297384dfad0515a6eec2"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://s3-us-east-2.amazonaws.com/wpeclibinaries/wpe-cli/v0.15.12/wpe-cli_0.15.12_linux_amd64.tar.gz"
-      sha256 "42a36d917077ffc18538740241dcfd822e08064055de7c917037878bbb1a4b89"
+      sha256 "c187abc6966693eabbfd2a4bb3d890aa4f05ce19fa0bd35f083e910a27dddfbc"
     end
   end
   
