@@ -2,16 +2,16 @@
 class WpeCli < Formula
   desc "WP Engine DevKit Command Line Interface"
   homepage "https://wpengine.com"
-  version "0.17.3"
+  version "0.17.4"
   bottle :unneeded
 
   if OS.mac?
-    url "https://s3-us-east-2.amazonaws.com/wpeclibinaries/wpe-cli/v0.17.3/wpe-cli_0.17.3_darwin_amd64.tar.gz"
-    sha256 "1629817480c7c6fd1a2167514301eab16cd88f18667fdd00aae619f7ee59f9be"
+    url "https://s3-us-east-2.amazonaws.com/wpeclibinaries/wpe-cli/v0.17.4/wpe-cli_0.17.4_darwin_amd64.tar.gz"
+    sha256 "2d130a6a2151d83a1bdf80ecc0fdef273186fee2fe43a142b5ebf5196ac9a78c"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://s3-us-east-2.amazonaws.com/wpeclibinaries/wpe-cli/v0.17.3/wpe-cli_0.17.3_linux_amd64.tar.gz"
-      sha256 "2b22558b75b22f0901c47db494e651a3975c182d7d6c3ac31bb2ea6d620f3543"
+      url "https://s3-us-east-2.amazonaws.com/wpeclibinaries/wpe-cli/v0.17.4/wpe-cli_0.17.4_linux_amd64.tar.gz"
+      sha256 "4ee917654638009d554e2f08240b90d217d24eba823edf26409ffc1ef81b164c"
     end
   end
   
