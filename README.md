@@ -1,7 +1,5 @@
 # homebrew-wpe-cli
-A Homebrew formula for [wpe-cli](https://github.com/wpengine/wpe-cli). 
-
-For usage see: https://github.com/wpengine/wpe-cli#using-homebrew
+A Homebrew formula for wpe-cli.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
